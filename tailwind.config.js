@@ -5,8 +5,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
-          
+      colors: {
+        'button-color': '#F9FAFF',
+        'button-text-color': '#827F97',
+        'button-active-color': '#965FFF'
+      },
+      height: {
+        '52px': '45px',
+      },
+      width: {
+        '668px': '109px'
       }
     },
     fontFamily: {
@@ -15,13 +23,8 @@ module.exports = {
       'mono': ['ui-monospace', 'SFMono-Regular'],
       'display': ['Oswald'],
       'body': ['"Open Sans"'],
-    },
-    height:[
-      '52px'
-    ],
-    width:[
-      '668px'
-    ]
+    }
+
   },
   plugins: [],
 }
